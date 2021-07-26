@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Refactored Bar Chart Code</title>
+    <title>Stylized Refactored Bar Chart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <!-- Css Styles  --> 
     <style>
+    
       body {
         margin: 0;
         overflow: hidden;
+        font-family: 'Poppins', sans-serif;
       }
       pre {
         font-size: 7em;
       }
+      .tick line{
+        stroke: #C0C0BB;
+      }
+      .tick text {
+        fill: #635F5D;
+      }
+      .mark {
+        fill: #42A5B3;
+      }
+      .axis-label {
+        font-size:2.25em;
+        
+        
     </style>
     <script src="https://unpkg.com/react@16.9.0/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-dom@16.9.0/umd/react-dom.production.min.js"></script>
